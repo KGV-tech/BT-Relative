@@ -8,72 +8,49 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:background="#F70626"
-        android:textSize="40dp"
-        android:text="1"
-        android:gravity="center"
-        android:layout_width="100dp"
-        android:layout_height="70dp"/>
+        android:textSize="30dp"
+        android:textColor="#ffff"
+        android:text="Top Content Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#959492"
+        android:textSize="30dp"
+        android:textColor="#ffff"
+        android:text="Bottom Content Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <TextView
         android:id="@+id/textView2"
-        android:background="#2A9545"
-        android:textSize="40dp"
-        android:text="2"
-        android:gravity="center"
-        android:layout_toEndOf="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:layout_width="100dp"
-        android:layout_height="70dp"/>
+        android:layout_centerInParent="true"
+        android:background="#3485EE"
+        android:textSize="30dp"
+        android:textColor="#ffff"
+        android:text="Second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/textView3"
-        android:background="#B7AB33"
-        android:textSize="40dp"
-        android:text="3"
-        android:gravity="center"
-        android:layout_toEndOf="@+id/textView2"
-        android:layout_below="@+id/textView2"
-        android:layout_width="100dp"
-        android:layout_height="70dp"/>
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/textView2"
+        android:background="#25E337"
+        android:textSize="30dp"
+        android:textColor="#ffff"
+        android:text="First"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/textView4"
-        android:background="#97156F"
-        android:textSize="40dp"
-        android:text="4"
-        android:gravity="center"
-        android:layout_toEndOf="@+id/textView3"
-        android:layout_below="@+id/textView3"
-        android:layout_width="100dp"
-        android:layout_height="70dp"/>
-    <TextView
-        android:id="@+id/textView5"
-        android:background="#8F625C"
-        android:textSize="40dp"
-        android:text="5"
-        android:gravity="center"
-        android:layout_toStartOf="@+id/textView4"
-        android:layout_below="@+id/textView4"
-        android:layout_width="100dp"
-        android:layout_height="70dp"/>
-    <TextView
-        android:id="@+id/textView6"
-        android:background="#946A30"
-        android:textSize="40dp"
-        android:text="6"
-        android:gravity="center"
-        android:layout_toStartOf="@+id/textView5"
-        android:layout_below="@+id/textView5"
-        android:layout_width="100dp"
-        android:layout_height="70dp"/>
-    <TextView
-        android:background="#47DAAE"
-        android:textSize="40dp"
-        android:text="7"
-        android:gravity="center"
-        android:layout_toStartOf="@+id/textView6"
-        android:layout_below="@+id/textView6"
-        android:layout_width="100dp"
-        android:layout_height="70dp"/>
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/textView2"
+        android:background="#25E337"
+        android:textSize="30dp"
+        android:textColor="#ffff"
+        android:text="Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
