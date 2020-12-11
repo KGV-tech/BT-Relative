@@ -8,49 +8,85 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:id="@+id/Tx1"
+        android:layout_centerInParent="true"
         android:background="#F70626"
         android:textSize="30dp"
-        android:textColor="#ffff"
-        android:text="Top Content Here"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:text="1"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
     <TextView
+        android:background="#2A9545"
+        android:textSize="30dp"
+        android:text="2"
+        android:layout_toStartOf="@id/Tx1"
+        android:layout_above="@id/Tx1"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:background="#B7AB33"
+        android:textSize="30dp"
+        android:text="3"
+        android:layout_toStartOf="@id/Tx1"
+        android:layout_below="@id/Tx1"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:background="#97156F"
+        android:textSize="30dp"
+        android:text="4"
+        android:layout_toEndOf="@id/Tx1"
+        android:layout_above="@id/Tx1"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:background="#8F625C"
+        android:textSize="30dp"
+        android:text="5"
+        android:layout_toEndOf="@id/Tx1"
+        android:layout_below="@id/Tx1"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:background="#946A30"
+        android:textSize="30dp"
+        android:text="6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:background="#47DAAE"
+        android:textSize="30dp"
+        android:text="7"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:background="#224D82"
+        android:textSize="30dp"
+        android:text="8"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="#959492"
-        android:textSize="30dp"
-        android:textColor="#ffff"
-        android:text="Bottom Content Here"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
     <TextView
-        android:id="@+id/textView2"
-        android:layout_centerInParent="true"
-        android:background="#3485EE"
+        android:background="#EB992B"
         android:textSize="30dp"
-        android:textColor="#ffff"
-        android:text="Second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_centerVertical="true"
-        android:layout_toStartOf="@id/textView2"
-        android:background="#25E337"
-        android:textSize="30dp"
-        android:textColor="#ffff"
-        android:text="First"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_centerVertical="true"
-        android:layout_toEndOf="@id/textView2"
-        android:background="#25E337"
-        android:textSize="30dp"
-        android:textColor="#ffff"
-        android:text="Three"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:text="9"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
 
 </RelativeLayout>
